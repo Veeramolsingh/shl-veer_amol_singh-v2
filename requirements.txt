@@ -1,0 +1,19 @@
+# Install PyTorch (CUDA build) FIRST, separately - see README:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+faster-whisper>=1.1.0
+transformers>=4.56
+sentencepiece
+protobuf
+soundfile
+librosa
+numpy
+pandas
+scikit-learn
+lightgbm
+scipy
+matplotlib
+tqdm
+joblib
+wordfreq
+jupyter
+ipykernel

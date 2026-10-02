@@ -1,0 +1,10 @@
+# private competition data and cached features
+data/
+features/
+# environment and caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.zip
+# out-of-fold predictions contain the private training labels
+outputs/**/oof_*.csv
